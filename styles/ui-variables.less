@@ -1,4 +1,4 @@
-@custom-color: rgba(214, 0, 54, 1);
+@custom-color: #D60036;
 // Text Colors
 @text-color: hsl(0, 0%, 50%);
 @text-color-subtle: hsl(0, 0%, 60%);
@@ -45,11 +45,11 @@
 @tree-view-background-color: @base-background-color;
 @tree-view-border-color: @base-border-color;
 // Site colors
-@ui-site-color-1: hsla(244, 100%, 40%, 1); // blue
-@ui-site-color-2: hsla(122, 100%, 40%, 1); // green
-@ui-site-color-3: hsla(23, 100%, 40%, 1); // orange
-@ui-site-color-4: hsla(332, 100%, 40%, 1); // pink
-@ui-site-color-5: hsla(61, 100%, 40%, 1); // yellow
+@ui-site-color-1: hsla(244, 100%, 40%, 1);  // blue
+@ui-site-color-2: hsla(122, 100%, 40%, 1);  // green
+@ui-site-color-3: hsla(23, 100%, 40%, 1);   // orange
+@ui-site-color-4: hsla(332, 100%, 40%, 1);  // pink
+@ui-site-color-5: hsla(61, 100%, 40%, 1);   // yellow
 // Sizes
 @font-size: 11px;
 @input-font-size: 11px;
@@ -67,3 +67,9 @@
 @scrollbar-background-color: @base-background-color; // replaced `transparent` with a solid color to test https://github.com/atom/one-light-ui/issues/4
 @scrollbar-color-editor: @custom-color;
 @scrollbar-background-color-editor: @base-background-color;
+// Git
+@text-color-added:    @text-color-success;  // green
+@text-color-ignored:  @text-color-subtle;   // faded
+@text-color-modified: @text-color-warning;  // orange
+@text-color-removed:  @text-color-error;    // red
+@text-color-renamed:  @text-color-info;     // blue
