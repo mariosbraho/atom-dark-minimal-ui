@@ -24,7 +24,7 @@ or
 
 ### Configuration
 `Atom Dark Minimal UI` has a configurable color.
-  1. Open *File > Setting > Themes*
+  1. Open *File > Settings > Themes*
   2. Press the <img src="http://www.clipartkid.com/images/28/gear-icon-clip-art-at-clker-com-vector-clip-art-online-royalty-free-rX2jGG-clipart.png" alt="cog" width="12" height="12"/> button next to selected UI theme
   3. Select a *Custom color* via the colorpicker or use the *Default Color*
 
