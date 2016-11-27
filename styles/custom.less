@@ -75,20 +75,18 @@
     }
 
     .tree-view {
-
         .list-nested-item.directory {
             .list-item:not(.selected):hover {
                 color: @text-color-selected;
 
                 &::after {
                     content: '';
-                    background: fadeout(lighten(@app-background-color, 10%), 20%);
+                    background: lighten(@app-background-color, 5%);
                     position: absolute;
                     left: -50%;
                     right: -10px;
                     height: @component-line-height;
                     z-index: -1;
-                    // border-left: 3px solid @custom-color;
                 }
             }
         }
@@ -98,13 +96,12 @@
 
             &::after {
                 content: '';
-                background: fadeout(lighten(@app-background-color, 10%), 20%);
+                background: lighten(@app-background-color, 5%);
                 position: absolute;
                 left: 0;
                 right: 0;
                 height: @component-line-height;
                 z-index: -1;
-                // border-left: 3px solid @custom-color;
             }
         }
     }
@@ -112,7 +109,7 @@
     .tab-bar {
         .tab:not(.active) {
             &:hover {
-                // background-color: fadeout(lighten(@app-background-color, 5%), 20%);
+                background-color: lighten(@app-background-color, 5%);
                 color: @text-color-selected;
                 border-bottom: 3px solid @custom-color;
             }
