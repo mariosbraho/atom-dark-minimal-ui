@@ -15,25 +15,49 @@ atom-workspace.theme-atom-dark-minimal-ui {
 // Scrollbars ------------------------------------
 .theme-atom-dark-minimal-ui {
 
-	&.scrollbars-visible-always {
-		/deep/ ::-webkit-scrollbar {
-		    width: 10px;
-		    height: 10px;
-		}
+	::-webkit-scrollbar {
+		width: 10px;
+		height: 10px;
+	}
 
-		atom-text-editor /deep/ ::-webkit-scrollbar-corner,
-		/deep/ ::-webkit-scrollbar-corner,
-		atom-text-editor /deep/ ::-webkit-scrollbar-track,
-		/deep/ ::-webkit-scrollbar-track {
-		    background: @scrollbar-background-color;
-		}
+	::-webkit-scrollbar-track {
+		// background: @scrollbar-background-color;
+	}
 
-		atom-text-editor /deep/ ::-webkit-scrollbar-thumb,
-		/deep/ ::-webkit-scrollbar-thumb {
-		    border-radius: 5px;
-		    background: @scrollbar-color;
-			border: 3px solid @scrollbar-background-color;
-			background-clip: content-box;
+	::-webkit-scrollbar-thumb {
+		border-radius: 5px;
+		border: 3px solid @scrollbar-background-color;
+		background: @scrollbar-color;
+		background-clip: content-box;
+	}
+
+	::-webkit-scrollbar-corner {
+		// background: @scrollbar-background-color;
+	}
+
+	::-webkit-scrollbar-thumb:vertical:active {
+		border-radius: 0;
+		border-left-width: 0;
+		border-right-width: 0;
+	}
+
+	::-webkit-scrollbar-thumb:horizontal:active {
+		border-radius: 0;
+		border-top-width: 0;
+		border-bottom-width: 0;
+	}
+
+	atom-text-editor {
+		::-webkit-scrollbar-track {
+			// background: @scrollbar-background-color-editor;
+		}
+		::-webkit-scrollbar-corner {
+			// background: @scrollbar-background-color-editor;
+		}
+		::-webkit-scrollbar-thumb {
+			border-color: @scrollbar-background-color-editor;
+			background: @scrollbar-color-editor;
 		}
 	}
+
 }

@@ -78,7 +78,7 @@
 
         .list-nested-item.directory {
             .list-item:not(.selected):hover {
-                color: darken(@ui-site-color-5, 13%);
+                color: @text-color-selected;
 
                 &::after {
                     content: '';
@@ -104,7 +104,7 @@
                 right: 0;
                 height: @component-line-height;
                 z-index: -1;
-                border-left: 3px solid @custom-color;
+                // border-left: 3px solid @custom-color;
             }
         }
     }
