@@ -82,23 +82,23 @@
 
                 &::after {
                     content: '';
-                    background: fadeout(lighten(@app-background-color, 10%), 60%);
+                    background: fadeout(lighten(@app-background-color, 10%), 20%);
                     position: absolute;
                     left: -50%;
                     right: -10px;
                     height: @component-line-height;
                     z-index: -1;
+                    // border-left: 3px solid @custom-color;
                 }
             }
         }
 
         .list-item.file.entry:not(.selected):hover {
             color: @text-color-selected;
-            transition: all .1s ease-in-out;
-            margin-left: 20px;
+
             &::after {
                 content: '';
-                background: fadeout(lighten(@app-background-color, 10%), 60%);
+                background: fadeout(lighten(@app-background-color, 10%), 20%);
                 position: absolute;
                 left: 0;
                 right: 0;
