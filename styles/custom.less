@@ -16,16 +16,16 @@
     .styleguide [data-name="variables"] .is-color.tool-panel-border-color:before,
     .tab-bar .tab.active,
     atom-text-editor[mini] .selection .region,
-    atom-text-editor[mini]::shadow .selection .region {
+    atom-text-editor[mini].editor .selection .region {
         background-color: @custom-color;
     }
 
     .scrollbars-visible-always atom-text-editor::-webkit-scrollbar-thumb,
     .scrollbars-visible-always::-webkit-scrollbar-thumb,
     .tooltip .keystroke,
-    atom-text-editor atom-text-editor-minimap::shadow .minimap-scroll-indicator,
-    atom-text-editor::shadow atom-text-editor-minimap::shadow .minimap-scroll-indicator,
-    html atom-text-editor-minimap::shadow .minimap-scroll-indicator {
+    atom-text-editor atom-text-editor-minimap.editor .minimap-scroll-indicator,
+    atom-text-editor.editor atom-text-editor-minimap.editor .minimap-scroll-indicator,
+    html atom-text-editor-minimap.editor .minimap-scroll-indicator {
         background: @custom-color;
     }
 
