@@ -14,7 +14,6 @@
     .styleguide [data-name="variables"] .is-color.inset-panel-border-color:before,
     .styleguide [data-name="variables"] .is-color.tab-background-color-active:before,
     .styleguide [data-name="variables"] .is-color.tool-panel-border-color:before,
-    .tab-bar .tab.active,
     atom-text-editor[mini] .selection .region,
     atom-text-editor[mini].editor .selection .region {
         background-color: @custom-color;
@@ -55,23 +54,6 @@
     .btn-group > .btn {
         border-left: 1px solid @custom-color;
         border-right: 1px solid @custom-color;
-    }
-
-    .projects-tab {
-        display: block;
-        position: relative;
-        background: @custom-color;
-        color: @text-color-selected;
-        text-transform: uppercase;
-        height: @tab-height;
-        line-height: @tab-height;
-        pointer-events: none;
-        z-index: 100;
-
-        span::after {
-            padding: 0 1rem;
-            content: '🚀 projects';
-        }
     }
 
     .tree-view {

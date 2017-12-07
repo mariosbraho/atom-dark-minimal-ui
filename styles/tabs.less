@@ -30,7 +30,7 @@
           border-color: @text-color-info;
         }
         &.modified:hover .close-icon {
-          color: currentColor;
+          color: @custom-color;
         }
 
 
@@ -54,5 +54,16 @@
           }
         }
       }
+    }
+
+    .tab-bar {
+        .tab:not(.texteditor) {
+            &.active {
+                font-size: 1.2em;
+                letter-spacing: .2em;
+                max-width: 100%;
+                text-transform: uppercase;
+            }
+        }
     }
 }

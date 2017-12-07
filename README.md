@@ -2,7 +2,7 @@
 
 A dark minimal UI with configurable color.
 
-![A screenshot of your theme](https://i.imgsafe.org/8cdcf9b7cc.png)
+![theme screenshot](https://i.imgur.com/rdn74OA.png)
 
 ### Installation
 **<img src="https://atom.io/favicon.ico" width="14" height="14" /> Open a terminal and type**
