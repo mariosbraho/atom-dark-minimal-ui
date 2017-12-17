@@ -1,6 +1,7 @@
 # Atom Dark Minimal UI
 
 A dark minimal UI with configurable color.
+It can be used in combination with [atom-dark-minimal-syntax](https://atom.io/themes/atom-dark-minimal-syntax).
 
 ![theme screenshot](https://i.imgur.com/x0Mxut6.png)
 
