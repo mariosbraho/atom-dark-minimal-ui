@@ -2,7 +2,7 @@
   "author": "Marios Braho",
   "name": "atom-dark-minimal-ui",
   "theme": "ui",
-  "version": "0.5.3",
+  "version": "0.5.4",
   "description": "Atom dark minimal UI with configurable color.",
   "keywords": [
     "dark",
